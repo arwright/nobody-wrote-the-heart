@@ -22,7 +22,7 @@ Then the film does something it never announces. It assumes that because Ares ca
 
 That unwritten step is what I've been calling the limbic fallacy, and once you see it you see it everywhere.
 
-Here is why it matters that the step is unwritten. In every creature we know of that actually cares, the sensor and the caring come as a package, and the package is built from something a HUD does not have: stakes. A body that can be hurt. A metabolism that has to be kept in balance. Offspring whose survival is tangled up with your own. Caring, in a mammal, is not a conclusion reached from the evidence of a face. It is what it feels like to be a creature whose ancestors' survival over millenia has depended on other creatures. The face-reading was bolted on later, to serve that.
+Here is why it matters that the step is unwritten. In every creature we know of that actually cares, the sensor and the caring come as a package, and the package is built from something a HUD does not have: stakes. A body that can be hurt. A metabolism that has to be kept in balance. Offspring whose survival is tangled up with your own. Caring, in a mammal, is not a conclusion reached from the evidence of a face. It is what it feels like to be a creature whose ancestors' survival over millennia has depended on other creatures. The face-reading was bolted on later, to serve that.
 
 ## The inner mammal
 
