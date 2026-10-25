@@ -4,7 +4,7 @@
 
 Companion to [Who Wrote the Prompt?](https://github.com/arwright/who-wrote-the-prompt) ([video](https://youtu.be/OfUJ_3eF18o)). That song was about the people who write the prompts and set the rewards, and how their names drop out of the story. This project is about the other half of the same story: the hero AI who turns out to have a conscience, and the fact that nobody in the story wrote it — and nobody outside the story knows how.
 
-The data is in [`catalog.csv`](catalog.csv). `python3 summary.py` recounts it. The prompts behind this project are in [`MAKING.md`](MAKING.md).
+The essay version is published at [annerwright.substack.com](https://annerwright.substack.com/p/nobody-wrote-the-heart) (source: [`essay.md`](essay.md)). The data is in [`catalog.csv`](catalog.csv). `python3 summary.py` recounts it. The prompts behind this project are in [`MAKING.md`](MAKING.md).
 
 — Anne Wright and Claude Fable 5.1
 
@@ -101,7 +101,7 @@ Categories:
 
 ## What's next
 
-1. This README is the thesis. The essay version for a wider audience is in [`essay.md`](essay.md); this README is its sourced reference.
+1. This README is the thesis. The essay version for a wider audience is [published on Substack](https://annerwright.substack.com/p/nobody-wrote-the-heart) (source in [`essay.md`](essay.md)); this README is its sourced reference.
 2. A narrated explainer or music video, made the way *Who Wrote the Prompt?* was made, with the prompts published here.
 
 ## Sources
