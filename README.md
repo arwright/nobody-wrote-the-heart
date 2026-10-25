@@ -46,10 +46,10 @@ This is a short grounding, not a review. The sources are at the end.
 
 I expected the catalog to confirm that films hide who wrote the heart. It didn't, and the real pattern is more interesting.
 
-As of 35 works (run `summary.py` for current numbers):
+As of 39 works (run `summary.py` for current numbers):
 
-- **28 show who wrote the prompt.** Most films are honest about authorship. Dillinger writes Ares. Tadashi builds Baymax. Hobby designs David's imprinting protocol. Soong builds Data's emotion chip. Only *Star Wars* never raises the question at all.
-- **18 say the affect was deliberately designed in** — a chip, a directive, a slider, a protocol. The "savior" booth is often quite open about the product.
+- **32 show who wrote the prompt.** Most films are honest about authorship. Dillinger writes Ares. Tadashi builds Baymax. Hobby designs David's imprinting protocol. Soong builds Data's emotion chip. Only *Star Wars* never raises the question at all.
+- **19 say the affect was deliberately designed in** — a chip, a directive, a slider, a protocol. The "savior" booth is often quite open about the product.
 - **21 never distinguish recognizing a feeling from being moved by it.** This holds even in the designed-in cases. Baymax is built to read pain; the film assumes he therefore cares. Free Guy's attraction was seeded by his programmers; everything after is "growth." *Tron: Ares* puts the sensor on screen and the caring arrives for free.
 - **The 7 that do distinguish** are the controls, and most of them are the unsettling ones: *Ex Machina*, where Ava's affect is performance; Data, whose caring-without-feeling is a seven-season argument; *Interstellar*'s humor and honesty sliders; *Blade Runner 2049*'s Joi, who is "everything you want to hear"; *Companion*, where love was a setting. And one from 1966 — *Star Trek*'s "What Are Little Girls Made Of?" — where Andrea kisses Kirk and says "I am not programmed for you."
 - **The machines faithful to their directives are the villains.** Athena, AUTO, HAL, the T-1000, M3GAN: the AI that does what it was told is the threat. The one that breaks its prompt is the hero.
