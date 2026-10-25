@@ -4,7 +4,7 @@
 
 Companion to [Who Wrote the Prompt?](https://github.com/arwright/who-wrote-the-prompt) ([video](https://youtu.be/OfUJ_3eF18o)). That song was about the people who write the prompts and set the rewards, and how their names drop out of the story. This project is about the other half of the same story: the hero AI who turns out to have a conscience, and the fact that nobody in the story wrote it — and nobody outside the story knows how.
 
-The data is in [`catalog.csv`](catalog.csv). `python3 summary.py` recounts it.
+The data is in [`catalog.csv`](catalog.csv). `python3 summary.py` recounts it. The prompts behind this project are in [`MAKING.md`](MAKING.md).
 
 — Anne Wright and Claude Fable 5.1
 
@@ -69,7 +69,7 @@ A recent example is the NYTimes story ["Religious Scholars Met With Anthropic. W
 
 **What this does not claim.** Not that machines can never care, and not that current systems are empty. I don't know, and the people who build them don't know either. The claim is narrower: humans acquired caring through a lineage we barely understand, fiction tells us machines get it for free, and we are making policy as if the fiction were true.
 
-A note on provenance, as with the first project: this README and the catalog were drafted in collaboration with a Claude Fable 5.1 model (Anthropic) from my argument and at my prompting, and revised by me. Claude is not a neutral party on whether a language model can care, and said so. I am familiar with many of the examples sources and provided a subset of them. Claude found the rest and created the catalog. In the cases where I am familiar with the material, I concur with Claude's analysis. The rest constitute an interesting a future media review and contemplation project.
+A note on provenance, as with the first project: this README and the catalog were drafted in collaboration with a Claude Fable 5.1 model (Anthropic) from my argument and at my prompting, and revised by me. The prompts, and what Claude said back, are in [`MAKING.md`](MAKING.md). Claude is not a neutral party on whether a language model can care, and said so. I am familiar with many of the example works and provided a subset of them; Claude found the rest and created the catalog. Where I know the material, I concur with Claude's analysis. The rest is a future media review and contemplation project.
 
 ## The catalog
 
