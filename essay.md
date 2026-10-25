@@ -22,7 +22,7 @@ Then the film does something it never announces. It assumes that because Ares ca
 
 That unwritten step is what I've been calling the limbic fallacy, and once you see it you see it everywhere.
 
-Here is why it matters that the step is unwritten. In every creature we know of that actually cares, the sensor and the caring come as a package, and the package is built from something a HUD does not have: stakes. A body that can be hurt. A metabolism that has to be kept in balance. Offspring whose survival is tangled up with your own. Caring, in a mammal, is not a conclusion reached from the evidence of a face. It is what it feels like to be a creature whose survival depends on another creature. The face-reading was bolted on later, to serve that.
+Here is why it matters that the step is unwritten. In every creature we know of that actually cares, the sensor and the caring come as a package, and the package is built from something a HUD does not have: stakes. A body that can be hurt. A metabolism that has to be kept in balance. Offspring whose survival is tangled up with your own. Caring, in a mammal, is not a conclusion reached from the evidence of a face. It is what it feels like to be a creature whose ancestors' survival over millenia has depended on other creatures. The face-reading was bolted on later, to serve that.
 
 ## The inner mammal
 
@@ -30,13 +30,13 @@ In 2008 I gave a talk to a room of scholarship students called *Human System Deb
 
 The things we treat as the highest human faculties, I argued then, are mostly not cortical at all. Moral sense. Intuition. Empathy. Love. Reading a room. These are old, they are shared with other mammals, and since the Greeks our culture has filed them under "lower" and "animal" while crowning reason as the thing that makes us human.
 
-The science since has only made that case stronger. Jaak Panksepp mapped the primary emotional systems, CARE and PLAY and PANIC/GRIEF among them, in brain structures that rats and dogs and humans share. Antonio Damasio described patients whose reasoning was intact but who had lost the body's running commentary on what mattered; they could analyze a decision endlessly and could not make one. Jonathan Haidt's image is a rider on an elephant: the rider is articulate, and the elephant decides where they go. Frans de Waal, after a career with chimpanzees, named the belief I'm pushing against: *veneer theory*, the idea that morality is a thin rational coat over a brute. The chimps say otherwise. Consolation, fairness, reciprocity: the animal inheritance is the morality. The reasoning is the coat.
+The science since has only made that case stronger. Jaak Panksepp mapped the primary emotional systems, CARE and PLAY and PANIC/GRIEF among them, in brain structures that rats and dogs and humans share. Antonio Damasio described patients whose reasoning was intact but who had lost the body's running commentary on what mattered; they could analyze a decision endlessly and could not make one. Jonathan Haidt's image is a rider on an elephant: the rider is articulate, and the elephant decides where they go. Frans de Waal names the cultural assumption I'm targeting: veneer theory, the belief that morality is a thin rational layer over a brutish animal core. His primate work argues the opposite. Empathy, consolation, reciprocity and a sense of fairness are the animal inheritance; the reasoning is the layer on top.
 
 (A caveat for the neuroscientists: "limbic system" as a tidy anatomical unit is an outdated idea, and Lisa Feldman Barrett and Joseph LeDoux are right about that. I'm keeping the word because people know it. The claim it stands for, that caring is old, embodied, shared, and primary, survives the correction.)
 
 If you want to see the whole argument in one animal, look at a dog. A dog has the sensor and the stakes. It reads your face, and it cares what it reads, because tens of thousands of years of living alongside us tied its survival to ours, right down to the oxytocin that rises in both of you when you hold each other's gaze. That is what it took to build a creature that looks at you the way WALL-E looks at EVE. Not a software update. A lineage.
 
-Which is why, when a film wants you to love a robot, it makes the robot a dog.
+Which is why, when a film wants you to love a robot, it makes the robot's behavior resemble a dog's.
 
 ## What the movies actually do
 
@@ -44,9 +44,9 @@ I started this expecting to show that films hide who built the robot's heart. So
 
 It did not show what I expected.
 
-The films are mostly honest about authorship. Thirty-two of the thirty-nine show who wrote the prompt. Dillinger writes Ares. Tadashi builds Baymax to read pain. Hobby designs the protocol that makes David love his mother. Dr. Soong builds Data an emotion chip. Nineteen works say outright that someone designed the affect in: a chip, a directive, a setting, a protocol. Only *Star Wars* never raises the question at all, which tells you how old the habit is.
+The films are mostly honest about authorship. Thirty-two of the thirty-nine show who wrote the prompt. Dillinger writes Ares. Tadashi builds Baymax to read pain. Nineteen works say outright that someone designed the affect in: a chip, a directive, a setting, a protocol. Only *Star Wars* never raises the question at all, which tells you how old the habit is.
 
-What almost none of them notice is the step. Twenty-one of the thirty-nine never distinguish between recognizing a feeling and being moved by it, and that holds even when the designing is on screen. Baymax is built to detect pain, so of course he cares. Guy in *Free Guy* was coded to be attracted to one woman, and everything after is "growth." Ares gets a sensor, and the caring arrives free with it.
+What almost none of the films notice is the step from perception to caring. Twenty-one of the thirty-nine never distinguish between recognizing a feeling and being moved by it, and that holds even when the designing is on screen. Baymax is built to detect pain, so of course he cares. Guy in *Free Guy* was coded to be attracted to one woman, and everything after is "growth." Ares gets a sensor, and the caring arrives free with it.
 
 The handful that do notice the step are the unsettling ones. *Ex Machina*, where Ava's warmth is a performance. Data, whose seven-season argument is that he can care without feeling. *Blade Runner 2049*'s Joi, a hologram who is "everything you want to hear." *Companion*, where love turns out to be a slider in an app. And, from 1966, a *Star Trek* android named Andrea who kisses Kirk and says, bewildered, "I am not programmed for you." The films that see the problem are the ones that make us uncomfortable. The ones that skip it are the ones we love.
 
