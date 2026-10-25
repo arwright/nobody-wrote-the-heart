@@ -101,7 +101,7 @@ Categories:
 
 ## What's next
 
-1. This README is the thesis. An essay version for a wider audience follows, with the sourced version here as its reference.
+1. This README is the thesis. The essay version for a wider audience is in [`essay.md`](essay.md); this README is its sourced reference.
 2. A narrated explainer or music video, made the way *Who Wrote the Prompt?* was made, with the prompts published here.
 
 ## Sources
