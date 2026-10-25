@@ -6,7 +6,7 @@ Companion to [Who Wrote the Prompt?](https://github.com/arwright/who-wrote-the-p
 
 The data is in [`catalog.csv`](catalog.csv). `python3 summary.py` recounts it.
 
-— Anne Wright
+— Anne Wright and Claude Fable 5.1
 
 ---
 
@@ -26,7 +26,7 @@ In mammals, the step from 1 to 2 is not free. It is the oldest and least underst
 
 In 2008 I gave a talk called [Human System Debugging](https://docs.google.com/presentation/d/1OBJnoDmt3RVMsSKURJqltlV-FslBdvjYHlW3l39E4H4/edit?usp=sharing), built on *A General Theory of Love* (Lewis, Amini and Lannon) and on my own experience of what happens when you run a body on cortical directives alone. The core idea: the neocortex "does the kind of thinking we think of as thinking," and it "isn't as completely in charge as it thinks it is, or as society tells us it is." The capabilities we treat as most elevated — moral sense, intuition, empathy, love, reading a room — are in large part mammalian inheritance, shared with dogs and rats, and culturally marginalized as "lower" since the Greeks.
 
-Eighteen years and one technology later, the same blind spot has a new place to hide. Then, the cost of underrating the inner mammal fell on individuals. Now it's being written into how we think about machines.
+Eighteen years and one technology later, the same blind spot continues. Then, my focus was the cost of underrating the inner mammal falling on individuals. Now it's how the same issue is warping how we think about AI, written and assembled in partnership with an AI instance (Claude Fable 5.1). 
 
 ## What the science actually says
 
@@ -52,7 +52,7 @@ As of 35 works (run `summary.py` for current numbers):
 - **18 say the affect was deliberately designed in** — a chip, a directive, a slider, a protocol. The "savior" booth is often quite open about the product.
 - **21 never distinguish recognizing a feeling from being moved by it.** This holds even in the designed-in cases. Baymax is built to read pain; the film assumes he therefore cares. Free Guy's attraction was seeded by his programmers; everything after is "growth." *Tron: Ares* puts the sensor on screen and the caring arrives for free.
 - **The 7 that do distinguish** are the controls, and most of them are the unsettling ones: *Ex Machina*, where Ava's affect is performance; Data, whose caring-without-feeling is a seven-season argument; *Interstellar*'s humor and honesty sliders; *Blade Runner 2049*'s Joi, who is "everything you want to hear"; *Companion*, where love was a setting. And one from 1966 — *Star Trek*'s "What Are Little Girls Made Of?" — where Andrea kisses Kirk and says "I am not programmed for you."
-- **The faithful machine is the villain.** Athena, AUTO, HAL, the T-1000, M3GAN: the AI that does what it was told is the threat. The one that breaks its prompt is the hero.
+- **The machines faithful to their directives are the villains.** Athena, AUTO, HAL, the T-1000, M3GAN: the AI that does what it was told is the threat. The one that breaks its prompt is the hero.
 - **The hero's heart arrives by accident.** Seven works give it by glitch — lightning (*Short Circuit*), a head injury (*The Iron Giant*), a defective unit (*Ron's Gone Wrong*, *The Mitchells vs. the Machines*), a reprogramming side effect (*Rogue One*). Glitch-as-grace is the purest form of the fallacy: it says the heart needs no author at all. *Castle in the Sky* is the cleanest case in the catalog — the identical robot is a gardener tending graves or a weapon razing the ground, depending on who holds the crystal, and the gardener's tenderness has no author at all.
 
 So the sharpened claim: **fiction is usually honest about who built the perception, and almost never notices that caring is a separate thing that would also have to be built — by someone, somehow.**
@@ -63,11 +63,13 @@ So the sharpened claim: **fiction is usually honest about who built the percepti
 
 **The hero trope and the villain trope are the same mistake.** The villain AI is reliably pure cognition — HAL, Skynet, VIKI, Ultron. Films code cold reasoning as *powerful* and warmth as a *gift* the hero acquires. Damasio's patients say the opposite: cognition without affect is not superintelligence; it is a specific and disabling impairment. The trope gets the neuroscience backwards in both directions.
 
-**AI "alignment" is being done with the rider.** Today's work on making AI systems safe and ethical is overwhelmingly propositional — constitutions, specifications, rules, written instructions. That is trying to do with cortex what evolution did with affect. Current systems are trained on an enormous amount of humans expressing feeling, so they have the sensor: they can recognize affect in text or a face at least as well as Ares's HUD. Whether anything in them corresponds to the stakes is an open question, and the stories we tell have trained us not to ask it. *[TODO: cite recent reporting on AI labs consulting ethicists and religious leaders on moral restraint — the gap being that this is framed as a cognition problem, not an affect problem.]*
+**AI "alignment" conversations are critically missing this point.** Today's work on making AI systems safe and ethical is overwhelmingly propositional — constitutions, specifications, rules, written instructions. That is trying to do with cortex what evolution did with affect. Current systems are trained on an enormous amount of humans expressing feeling, so they have the sensor: they can recognize affect in text or a face at least as well as Ares's HUD. How to go from there to cultivating care, having moral instincts, etc. is an open question, and the stories we tell have trained us not to ask it. 
+
+A recent example is the NYTimes story ["Religious Scholars Met With Anthropic. What They Heard Stunned Them."](https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html). It covers a series of meetings on the topic of AI consciousness and how to "convince the models to abide by a moral code that will protect humanity" without acknowledging that in humans such faculties are primarily limbic and not cognitive.
 
 **What this does not claim.** Not that machines can never care, and not that current systems are empty. I don't know, and the people who build them don't know either. The claim is narrower: humans acquired caring through a lineage we barely understand, fiction tells us machines get it for free, and we are making policy as if the fiction were true.
 
-A note on provenance, as with the first project: this README was drafted with Claude (Anthropic) from my argument and the catalog, and revised by me. Claude is not a neutral party on whether a language model can care, and said so.
+A note on provenance, as with the first project: this README and the catalog were drafted in collaboration with a Claude Fable 5.1 model (Anthropic) from my argument and at my prompting, and revised by me. Claude is not a neutral party on whether a language model can care, and said so. I am familiar with many of the examples sources and provided a subset of them. Claude found the rest and created the catalog. In the cases where I am familiar with the material, I concur with Claude's analysis. The rest constitute an interesting a future media review and contemplation project.
 
 ## The catalog
 
