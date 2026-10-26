@@ -4,6 +4,8 @@
 
 Anne Wright · October 2026
 
+*This post is written as a collaboration with a Claude Fable 5.1 AI model instance. Details are [here](MAKING.md).*
+
 ## The moment the robot's eyes soften
 
 About forty-seven minutes into *Tron: Ares*, the machine looks at a woman's face and reads it. We see what he sees: a heads-up display, red on black, tracking her heart rate, skin conductance, pupil dilation, and then a verdict in capital letters. EMPATHETIC RESPONSE. A few scenes later he is risking himself to protect her.
