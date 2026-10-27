@@ -32,6 +32,10 @@ print("\nRecognition vs. caring distinguished?")
 for k, v in Counter(first_word(r["Recognition vs. caring distinguished?"]) for r in rows).most_common():
     print(f"  {v:3}  {k}")
 
-print("\nStatus")
-for k, v in Counter(r["Status"].split(" ")[0] for r in rows).most_common():
+print("\nVerified")
+for k, v in Counter(r["Verified"].split("—")[0].strip() or "(blank)" for r in rows).most_common():
+    print(f"  {v:3}  {k}")
+
+print("\nAuthor")
+for k, v in Counter(r["Author"].strip() or "(blank)" for r in rows).most_common():
     print(f"  {v:3}  {k}")

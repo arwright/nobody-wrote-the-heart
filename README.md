@@ -86,7 +86,10 @@ One row per work. Columns:
 | **Who wrote the prompt — shown?** | Starts with `Yes`, `Partly` or `No`, then who |
 | **Recognition vs. caring distinguished?** | Starts with `Yes`, `Partly`, `No` or `N/A`: does the work notice these are different? |
 | **Notes for thesis** | Why the row matters |
-| **Status** | `Confirmed` or `Verify` — a `Verify` row needs a check against the work before anyone cites it |
+| **Author** | Who wrote the row's text: `Claude` or `Claude; revised Anne`, either optionally followed by `(work suggested by Randy)` or `(work suggested by Anne)`. Later edits are in the git history |
+| **Verified** | Whether a human has checked the row against the work: one of `Watched for project`, `Remembered`, `Rewatch needed`, `Unseen`, optionally followed by `— <name>` |
+
+A row marked `Unseen` rests on Claude's recollection of the work alone; the verification counts are in `summary.py`.
 
 Categories:
 
@@ -97,7 +100,7 @@ Categories:
 - **Human-origin** — the character is biological or has a human brain; the affect is the mammal's.
 - **None given** — the work never raises the question.
 
-**To add a row:** edit `catalog.csv` in the GitHub web editor or send a pull request. Keep the category vocabulary; start the two yes/no columns with the keyword so `summary.py` can count them; mark anything you haven't checked against the work as `Verify`. Disagreements about a row are welcome as issues — the categories are judgments, and a good argument about one is part of the point.
+**To add a row:** edit `catalog.csv` in the GitHub web editor or send a pull request. Keep the category vocabulary; start the two yes/no columns with the keyword so `summary.py` can count them; start the Verified cell with one of the four words and your name, and put your own name in Author. Disagreements about a row are welcome as issues — the categories are judgments, and a good argument about one is part of the point.
 
 ## What's next
 
