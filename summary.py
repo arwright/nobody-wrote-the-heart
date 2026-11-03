@@ -4,6 +4,7 @@
 Usage: python3 summary.py [catalog.csv]
 """
 import csv
+import re
 import sys
 from collections import Counter
 
@@ -12,11 +13,9 @@ with open(path, newline="", encoding="utf-8") as f:
     rows = list(csv.DictReader(f))
 
 def first_word(s):
-    s = s.strip()
-    for label in ("Yes", "Partly", "No", "N/A"):
-        if s.startswith(label):
-            return label
-    return s or "(blank)"
+    """The first keyword in the cell, so "David: Yes ... Walter: No" counts as Yes."""
+    m = re.search(r"\b(Yes|Partly|No|N/A)\b", s)
+    return m.group(1) if m else s.strip() or "(blank)"
 
 print(f"Works: {len(rows)}\n")
 
@@ -30,6 +29,10 @@ for k, v in Counter(first_word(r["Who wrote the prompt — shown?"]) for r in ro
 
 print("\nRecognition vs. caring distinguished?")
 for k, v in Counter(first_word(r["Recognition vs. caring distinguished?"]) for r in rows).most_common():
+    print(f"  {v:3}  {k}")
+
+print("\nBreaks its prompt?")
+for k, v in Counter(first_word(r["Breaks its prompt?"]) for r in rows).most_common():
     print(f"  {v:3}  {k}")
 
 print("\nVerified")
