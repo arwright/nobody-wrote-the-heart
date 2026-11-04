@@ -4,7 +4,7 @@ The README argues that fiction hands AI characters a heart nobody wrote. So, as 
 
 This is a curated record, not a full transcript. My own messages are quoted word for word. Claude's replies are summarized, and quoted where they shaped the result. Routine steps (file downloads, a tool that needed re-running, a stop hook asking for a push) are left out.
 
-Tools: Claude Fable 5.1 in the Claude app (one chat session, with file tools and a Google Drive connection), a local Claude Code instance on my laptop for repo creation and commits, and GitHub. Everything happened on Sunday, October 25, 2026, between about 8 a.m. and noon.
+Tools: Claude Fable 5.1 in the Claude app (one chat session, with file tools and Google Drive and Sheets connections), a local Claude Code instance on my laptop for repo creation, commits, and syncing the Google Sheet to the CSV, and GitHub. Sections 1–6 happened on Sunday, October 25, 2026, between about 8 a.m. and noon; sections 7–11 over the following nine days. The chat session never had push access to the repo: every change it made arrived as a patch that I read and applied.
 
 — Anne Wright
 
@@ -96,7 +96,55 @@ It asked for my judgment on two things: whether the "What this does not claim" p
 
 > I have applied the patch, edited the README, and pushed to the repo.  Please generate a file to add to the repo to document covering the prompting, similar to the How this video was made treatment in the Who Wrote the Prompt? README. I imagine pointing to  it in the "A note on provenance" paragraph. Please propose README edits to point to it.
 
-Claude wrote this file from the session transcript and proposed the README edit that links to it.
+Claude wrote this file from the session transcript and proposed the README edit that links to it. Sections 7 onward were added on November 3 the same way, after I asked whether anything since rose to the level of this record.
+
+## 7. The essay and Substack
+
+The same afternoon, after a catalog patch that split four *Star Trek* episodes into their own rows, Claude drafted the essay for a wider audience as a shared document, section by section, from the README. I edited it in place (among other things, adding "or the caring and moral instincts that, for mammals, flowed from them" to the claim about stakes, and naming Claude as collaborator rather than "one of them helped me write this"). I set up a Substack with Claude's walkthrough and published it that afternoon at [annerwright.substack.com](https://annerwright.substack.com/p/nobody-wrote-the-heart). Claude exported the doc to `essay.md` for the repo, and the README links the published version.
+
+## 8. The villains I had missed
+
+The next day I noticed a hole:
+
+> I see at least two examples of limbically motivated AI characters who go against directives to pursue evil purposes: Lore and PAL. Can you check what other examples we do or do not have in the catalog and how they affect the various places claims are made?
+
+Claude's audit found the fourth quadrant — affect-driven, prompt-breaking villains — sitting in the margins of other characters' rows, and one outright error: both the README and the published essay had named Ultron as an example of *pure cognition*, when he is petulant, resentful, and sings "I've Got No Strings" as he breaks from his directive. Lore, PAL and Ultron got their own rows; David 8 and Walter (*Alien: Covenant*) and Agent Smith were added; the "cold-cognition counterpart" column was renamed, since the old name had baked the error into the schema. Two claims were rewritten — "the faithful machine is the villain" became an asymmetry rather than a rule, and "the villain AI is reliably pure cognition" became "the archetypal villain" with the resentful creation named as the second type. Claude's summary of what the correction did to the thesis:
+
+> The affect-driven villains have the *same unexplained affect* as the heroes, with the sign flipped. Films hand out feeling in two flavors — attachment and grievance, roughly Panksepp's CARE and RAGE/GRIEF — and sort the machine into hero or villain by which one it got. Nobody writes either.
+
+That went into the README and, in two sentences, into the essay on Substack.
+
+## 9. Who wrote each row, and who has checked it
+
+I had been editing the catalog with the Claude Code instance and color-coding the Google Sheet by how well I knew each work. When Claude in the chat proposed folding the colors into the CSV, I raised the obvious problem:
+
+> Regarding the colors, I'm not sure if it belongs in the csv or not. If it did, I think we'd need an attribution mechanism as well, with you (this Fable instance) being the unstated contributor for all but the two "Confirmed (observed)" rows.
+
+Claude agreed the old `Status` column had conflated two things, and that its "Confirmed" value had meant the model's own confidence rather than any human check. It replaced `Status` with `Author` (who wrote the row's text) and `Verified` (`Watched for project`, `Remembered`, `Rewatch needed`, `Unseen`, with a name where someone is vouching), wrote them into the sheet from the colors and the git history, and gave the Claude Code instance a written spec to sync from. This became the working process for the rest of the project: Claude in the chat edits the sheet, I kibbitz, the local instance commits the CSV. A row marked `Unseen` rests on Claude's recollection of the work alone, and the README says so.
+
+## 10. What rewatching did to the rows
+
+With the verification column in place, Randy and I started watching. Every careful rewatch so far has changed its row.
+
+*Big Hero 6*: Baymax never breaks his programming. He is faithful to whichever chips are installed, and his sacrifice runs through the healthcare protocol itself — he cannot deactivate until his patient says he is satisfied with his care. The film never claims he feels; it writes a protocol good enough that the audience does the feeling. That became its own README finding ("Sometimes the audience writes the heart") and a paragraph in the essay, because Tadashi's chip is a constitution, and a written protocol an audience cannot distinguish from caring is exactly what constitution-style alignment is betting on.
+
+*Interstellar*:
+
+> I saw no indication that either CASE or TARS disobeyed their programming. They were certainly voiced with affect/prosody from the start (I found their voices were indistinguishable from the human crew's voices), but their actions all seemed to be within the scope of the jobs they were assigned to do.  TARS took initiative in disabling the docking protocol for the lander, which was attributed to his trust setting being lower than the humans'
+
+*Avengers: Age of Ultron*: the row had said Vision was "JARVIS plus the Mind Stone." What the film shows is four partial authors, each interrupted — Ultron's fractional upload, a half-loaded JARVIS matrix that "isn't working," the cradle unplugged mid-fight, Thor's lightning finishing the job — and a product that disowns all of them: "I am not Ultron. I am not JARVIS. I am… I am." Vision moved from *Mystical* to *Glitch/accident*; the lightning is the *Short Circuit* mechanism.
+
+Three faithful heroes in a row — Walter, Baymax, TARS — made the README's "the hero always breaks its prompt" claim untenable, so I asked for it to become a column:
+
+> Please do add a `Breaks its prompt?` column
+
+Claude judged all 44 rows (mine are the two it had already verified) and the split fell out at once: heroes whose affect was designed in mostly stay faithful (7 of 11); heroes whose affect came by exposure or glitch mostly defy their makers (7 of 12). The README now says: *defiance is the narrative substitute for an origin.* It came from the rewatches, and it is the single finding I would not have guessed at the start.
+
+## 11. LessWrong, and a 2008 precedent
+
+Claude had suggested cross-posting the essay to LessWrong, where the alignment researchers argue. When I asked for more, it found two things that changed the plan. First, the site's rules: new users may not use any AI text in a submission, and posts are auto-screened for it — so the essay, which says on its face that it was written with Claude, cannot be cross-posted; a LessWrong post has to be written by hand, with Claude's help confined to research. Second, the thesis has an ancestor there. Eliezer Yudkowsky's "Detached Lever Fallacy," from July 2008 — three months before my Coca-Cola Scholars talk — makes the same argument for AI design: the lever is visible, the machinery is not, and "kindness is not sneezed into an AI by miraculous contagion from its programmers." Claude prepared a reading list (Yudkowsky, Steven Byrnes' brain-like-AGI work, shard theory, the Orthogonality Thesis) and a list of the objections to expect, with the strongest form of each. The post itself, if I write it, will be mine alone, and will say so.
+
+Along the way, Randy reminded me of an essay he wrote in January for Illah Nourbakhsh's *Crunch Time*, in which *Star Wars* at age nine "set in my mind the idea of strong-willed robots with personalities… always loyal and helpful." Claude then found that Illah's own origin story, in a 2010 oral history, is the same film and the same robot — "I want that robot. How do I build that robot?" — and that his 2015 *Foreign Affairs* essay draws the catalog's recognition/caring line from the engineer's side: "a robotic vacuum cleaner shouldn't tell its owner that it misses him when he's at work."
 
 ---
 
